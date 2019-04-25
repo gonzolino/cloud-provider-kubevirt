@@ -1,5 +1,5 @@
-hash: 05c93f89b568203982e808c71ec49926c6007be3a5453c2d4774c08d62fcafd4
-updated: 2019-04-08T11:25:48.705572+02:00
+hash: 8dc3006dfd7c00876a150b329b52438bc84e4d046e0c8f08b2e754dfb14f16c4
+updated: 2019-04-25T15:14:03.420447+02:00
 imports:
 - name: bitbucket.org/ww/goautoneg
   version: 75cd24fc2f2c2a2088577d12123ddee5f54e0675
@@ -211,7 +211,7 @@ imports:
 - name: github.com/opencontainers/go-digest
   version: a6d0ee40d4207ea02364bd3b9e8e77b9159ba1eb
 - name: github.com/openshift/api
-  version: 5ad8479f64f1b60ee9c62ce8ef1fe6638838725e
+  version: 8741ff068a473be041d7bafb4502c12e4f10aab5
   subpackages:
   - security/v1
 - name: github.com/openshift/client-go
@@ -831,7 +831,8 @@ imports:
   - pkg/client/clientset/versioned/typed/core/v1alpha1
   - pkg/client/clientset/versioned/typed/upload/v1alpha1
 - name: kubevirt.io/kubevirt
-  version: 06d91198bededc7a9353ac774221c83580ee3373
+  version: e047c19b6b213608387dd1178e5621a4d8d94432
+  repo: https://github.com/kubeforge/kubevirt.git
   subpackages:
   - pkg/api/v1
   - pkg/kubecli

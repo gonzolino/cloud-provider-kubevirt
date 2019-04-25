@@ -32,7 +32,8 @@ import:
   - pkg/controller
   - pkg/version/prometheus
 - package: kubevirt.io/kubevirt
-  version: v0.16.0
+  repo: https://github.com/kubeforge/kubevirt.git
+  version: kubeforge
   subpackages:
   - pkg/kubecli
 - package: github.com/gorilla/websocket
